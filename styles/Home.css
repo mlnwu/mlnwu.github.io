@@ -1,0 +1,44 @@
+.home {
+  min-height: calc(100vh - var(--navbar-height));
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home__pseudo-padding {
+  flex: 1;
+}
+
+.home__pseudo-padding-top {
+  min-height: 5rem;
+}
+
+.home__desc {
+  font-size: 1.2rem;
+  text-align: left;
+}
+
+.home__contact {
+  justify-content: center;
+}
+
+.home__contact > * {
+  margin-right: 1rem;
+}
+
+.home__contact > *:last-child {
+  margin-right: 0;
+}
+
+.home__desc,
+.home__contact {
+  margin-top: 2.4rem;
+}
+
+@media (max-width: 600px) {
+  .home__pseudo-padding-top {
+    min-height: 3rem;
+  }
+}
