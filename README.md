@@ -4,8 +4,8 @@
 npm
 
 ```bash
-git clone https://github.com/wumag/wumag.github.io.git
-cd leanfolio
+git clone https://github.com/mlnwu/mlnwu.github.io.git
+cd mlnwu.github.io
 npm install
 npm run dev
 ```
