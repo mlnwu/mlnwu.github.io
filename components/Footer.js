@@ -4,7 +4,7 @@ const Footer = () => (
   <footer className='footer'>
     {/* Render an anchor tag that links to a GitHub repository */}
     <a
-      href='https://github.com/wumag/wumag.github.io'
+      href='https://github.com/mlnwu/mlnwu.github.io'
       target='_blank' // Open the link in a new tab/window
       rel='noreferrer' // Add security attributes to the link
       className='link footer__link' // Apply CSS classes for styling
