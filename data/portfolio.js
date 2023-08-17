@@ -55,8 +55,8 @@ const projects = [
     stack: ['JavaScript', 'CSS', 'HTML', 'React', 'Express.js', 'Node.js', 'SQL', 'AWS Aurora'],
     sourceCode: 'https://github.com/mayacdsouza/codewise',
     pdfPreview: 'https://pdf.ac/2kzv6W',
-    pdfPreview: 'https://pdf.ac/IFMet',
-    pdfPreview: 'https://pdf.ac/2OOik5',
+    pdfPreview2: 'https://pdf.ac/IFMet',
+    pdfPreview3: 'https://pdf.ac/2OOik5',
     // livePreview: 'https://github.com',
   },
   {

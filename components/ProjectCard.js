@@ -71,6 +71,32 @@ const ProjectCard = ({ project }) => (
         </a>
       )}
 
+      {/* Render the PDF preview link (if available) */}
+      {project.pdfPreview2 && (
+        <a
+          href={project.pdfPreview2}
+          target='_blank'
+          rel='noreferrer'
+          aria-label='pdf preview'
+          className='link link--icon'
+        >
+          <PictureAsPdfIcon />
+        </a>
+      )}
+
+      {/* Render the PDF preview link (if available) */}
+      {project.pdfPreview3 && (
+        <a
+          href={project.pdfPreview3}
+          target='_blank'
+          rel='noreferrer'
+          aria-label='pdf preview'
+          className='link link--icon'
+        >
+          <PictureAsPdfIcon />
+        </a>
+      )}
+
       {/* Render the live preview link (if available) */}
       {project.livePreview && (
         <a
