@@ -5,7 +5,7 @@ const home = {
   description: [
     '[about me]',
   ],
-  resume: 'https://pdf.ac/2h4Z7q',
+  resume: 'https://pdf.ac/1nK5dT',
   social: {
     linkedin: 'https://www.linkedin.com/in/maggielwu/',
     github: 'https://github.com/mlnwu',
