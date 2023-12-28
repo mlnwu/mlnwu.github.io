@@ -29,7 +29,7 @@ const Home = () => {
       {/* Render the role and company information */}
       {role && (
         <h1 className='home__role animate__animated animate__fadeInUp animate__delay-3s'>
-          I&apos;m a {role} at
+          I&apos;m a {role} from
           {/* Render the company name (if available) */}
           {company && (
             <>
