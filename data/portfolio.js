@@ -1,36 +1,39 @@
 const home = {
   name: 'Maggie Wu',
-  role: 'Computer Science Graduate',
+  role: 'Computer Science and Data Analytics Graduate',
   company: 'Oregon State University',
   description: [
     '[about me]',
   ],
-  resume: 'https://pdf.ac/1ZTHMB',
+  resume: 'https://pdf.ac/1a1kg0',
   social: {
     linkedin: 'https://www.linkedin.com/in/maggielwu/',
     github: 'https://github.com/mlnwu',
   },
-  greetingEmoji: '👋',
+  greetingEmoji: '🫶',
 }
 
 const about = [
 {
   education: [
-    'I recently graduated magna cum laude (c/o \'23) from Oregon State University with a Bachelor of Science in Computer Science. My first degree was from California Polytechnic State University - San Luis Obispo, where I graduated cum laude with a Bachelor of Science in Nutrition.',
+    'I recently graduated from the Data Analytics fellowship with COOP Careers and obtained the Google Data Analytics Professional Certificate. Prior, I graduated magna cum laude (c/o \'23) from Oregon State University with a Bachelor of Science in Computer Science. My first degree was from California Polytechnic State University - San Luis Obispo, where I graduated cum laude with a Bachelor of Science in Nutrition.',
   ],
   description: [
-    'In my portfolio, you\'ll find a diverse collection of my work, where I take pleasure in crafting visually captivating pieces. Whether I\'m immersed in programming, digital design, or curating content for my Instagram reels, my passion for aesthetics shines through. As a perpetual learner, I\'m constantly pushing myself beyond comfort zones, embracing new challenges and exploring the boundaries of my skills.',
+    'In my portfolio, you\'ll find a diverse collection of my work, where I enjoy crafting visually captivating pieces. Whether I\'m immersed in programming or digital design, my passion for aesthetics shines through. As a continuous learner, I\'m constantly pushing myself beyond comfort zones, embracing new challenges and exploring the boundaries of my skills.',
   ],
   skills: [
     'Python',
+    'SQL',
+    'Excel',
+    'Tableau',
+    'JavaScript',
     'HTML',
     'CSS',
-    'JavaScript',
+    'Power BI',
+    'R',
     'C++',
     'C',
-    'SQL',
-    'Kotlin',
-    'Jetpack Compose',
+    'MySQL',
     'MongoDB',
     'Mongoose',
     'React',
@@ -41,11 +44,25 @@ const about = [
     'Flask',
     'Git',
     'Linux',
+    'AWS',
   ],
 },
 ]
 
 const projects = [
+  {
+    thumbnail: 'images/clickbait.png',
+    name: 'Clickbait',
+    description: [
+      'A data visualization project that analyzes a telecommunications company\'s global campaign data to optimize future strategies.',
+    ],
+    stack: ['Excel', 'Tableau'],
+    // sourceCode: 'https://github.com/mayacdsouza/codewise',
+    pdfPreview: 'https://pdf.ac/20aWmF',
+    // pdfPreview2: 'https://pdf.ac/IFMet',
+    // pdfPreview3: 'https://pdf.ac/2OOik5',
+    // livePreview: 'https://github.com',
+  },
   {
     thumbnail: 'images/codewise.png',
     name: 'Codewise',
@@ -86,15 +103,6 @@ const projects = [
     ],
     stack: ['C', 'Shell', 'Linux', 'Unix', 'Sockets'],
     sourceCode: 'https://github.com/mlnwu/osu-cs344-sp23-otp',
-  },
-  {
-    thumbnail: 'images/traceroute.png',
-    name: 'Traceroute',
-    description: [
-      'A raw socket implementation of ICMP\'s ping to enhance ping accuracy and create traceroute functionality.',
-    ],
-    stack: ['Python', 'Internet Control Message Protocol', 'Linux', 'Unix', 'Sockets'],
-    sourceCode: 'https://github.com/mlnwu/osu-cs372-sp23-traceroute',
   },
   {
     thumbnail: 'images/oen.png',
